@@ -73,7 +73,7 @@ export default class Stars {
     );
     this.particlesMaterial = new THREE.PointsMaterial();
     this.particlesMaterial.size = 15;
-    this.particlesMaterial.vertexColors = THREE.VertexColors;
+    // this.particlesMaterial.vertexColors = THREE.VertexColors;
     this.particlesMaterial.transparent = true;
     this.particlesMaterial.alphaMap = this.resources.items.starsTexture
     this.starsParticles = new THREE.Points(this.particlesGeometry, this.particlesMaterial);
