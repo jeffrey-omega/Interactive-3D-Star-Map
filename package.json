@@ -30,7 +30,7 @@
     "webpack-merge": "^6.0.0"
   },
   "devDependencies": {
-    "sass": "1.54.4",
+    "sass": "1.83.0",
     "sass-loader": "13.0.2",
     "webpack": "5.97.1"
   }
