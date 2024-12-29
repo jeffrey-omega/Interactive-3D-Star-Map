@@ -72,8 +72,8 @@ importers:
         specifier: ^4.10.0
         version: 4.10.0(webpack-cli@4.10.0)(webpack@5.94.0)
       webpack-merge:
-        specifier: ^5.8.0
-        version: 5.8.0
+        specifier: ^6.0.0
+        version: 6.0.1
     devDependencies:
       sass:
         specifier: ^1.54.4
@@ -1334,6 +1334,10 @@ packages:
     resolution: {integrity: sha512-PpOwAdQ/YlXQ2vj8a3h8IipDuYRi3wceVQQGYWxNINccq40Anw7BlsEXCMbt1Zt+OLA6Fq9suIpIWD0OsnISlw==}
     engines: {node: '>=8'}
 
+  flat@5.0.2:
+    resolution: {integrity: sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==}
+    hasBin: true
+
   follow-redirects@1.15.1:
     resolution: {integrity: sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==}
     engines: {node: '>=4.0'}
@@ -2487,6 +2491,10 @@ packages:
     resolution: {integrity: sha512-/SaI7xY0831XwP6kzuwhKWVKDP9t1QY1h65lAFLbZqMPIuYcD9QAW4u9STIbU9kaJbPBB/geU/gLr1wDjOhQ+Q==}
     engines: {node: '>=10.0.0'}
 
+  webpack-merge@6.0.1:
+    resolution: {integrity: sha512-hXXvrjtx2PLYx4qruKl+kyRSLc52V+cCvMxRjmKwoA+CBbbF5GfIBtR6kCvl0fYGqTUPKB+1ktVmTHqMOzgCBg==}
+    engines: {node: '>=18.0.0'}
+
   webpack-sources@3.2.3:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
@@ -2516,6 +2524,9 @@ packages:
 
   wildcard@2.0.0:
     resolution: {integrity: sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==}
+
+  wildcard@2.0.1:
+    resolution: {integrity: sha512-CC1bOL87PIWSBhDcTrdeLo6eGT7mCFtrg0uIJtqJUFyK+eJnzl8A1niH56uu7KMa5XFrtiV+AQuHO3n7DsHnLQ==}
 
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
@@ -4053,6 +4064,8 @@ snapshots:
       locate-path: 5.0.0
       path-exists: 4.0.0
 
+  flat@5.0.2: {}
+
   follow-redirects@1.15.1: {}
 
   forwarded@0.2.0: {}
@@ -5197,6 +5210,12 @@ snapshots:
       clone-deep: 4.0.1
       wildcard: 2.0.0
 
+  webpack-merge@6.0.1:
+    dependencies:
+      clone-deep: 4.0.1
+      flat: 5.0.2
+      wildcard: 2.0.1
+
   webpack-sources@3.2.3: {}
 
   webpack@5.94.0(webpack-cli@4.10.0):
@@ -5244,6 +5263,8 @@ snapshots:
       isexe: 2.0.0
 
   wildcard@2.0.0: {}
+
+  wildcard@2.0.1: {}
 
   wrappy@1.0.2: {}
 
