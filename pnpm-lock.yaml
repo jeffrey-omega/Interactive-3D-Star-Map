@@ -46,7 +46,7 @@ importers:
         version: 5.5.0(webpack@5.94.0)
       mini-css-extract-plugin:
         specifier: ^2.6.1
-        version: 2.6.1(webpack@5.94.0)
+        version: 2.9.2(webpack@5.94.0)
       portfinder-sync:
         specifier: 0.0.2
         version: 0.0.2
@@ -1779,8 +1779,8 @@ packages:
     resolution: {integrity: sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==}
     engines: {node: '>=6'}
 
-  mini-css-extract-plugin@2.6.1:
-    resolution: {integrity: sha512-wd+SD57/K6DiV7jIR34P+s3uckTRuQvx0tKPcvjFlrEylk6P4mQ2KSWk1hblj1Kxaqok7LogKOieygXqBczNlg==}
+  mini-css-extract-plugin@2.9.2:
+    resolution: {integrity: sha512-GJuACcS//jtq4kCtd5ii/M0SZf7OZRH+BxdqXZHaJfb8TJiVl+NgQRPwiYt2EuqeSkNydn/7vP+bcE27C5mb9w==}
     engines: {node: '>= 12.13.0'}
     peerDependencies:
       webpack: ^5.0.0
@@ -4482,9 +4482,10 @@ snapshots:
 
   mimic-fn@2.1.0: {}
 
-  mini-css-extract-plugin@2.6.1(webpack@5.94.0):
+  mini-css-extract-plugin@2.9.2(webpack@5.94.0):
     dependencies:
-      schema-utils: 4.0.0
+      schema-utils: 4.3.0
+      tapable: 2.2.1
       webpack: 5.94.0(webpack-cli@4.10.0)
 
   minimalistic-assert@1.0.1: {}
