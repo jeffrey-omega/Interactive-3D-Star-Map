@@ -1,5 +1,5 @@
 {
-  "repository": "#",
+  "repository": "Interactive-3D-Star-Map",
   "license": "UNLICENSED",
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
