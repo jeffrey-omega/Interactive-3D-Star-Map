@@ -57,8 +57,8 @@ importers:
         specifier: ^0.17.0
         version: 0.17.0
       style-loader:
-        specifier: ^2.0.0
-        version: 2.0.0(webpack@5.97.1)
+        specifier: ^4.0.0
+        version: 4.0.0(webpack@5.97.1)
       three:
         specifier: ^0.143.0
         version: 0.143.0
@@ -2384,11 +2384,11 @@ packages:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
 
-  style-loader@2.0.0:
-    resolution: {integrity: sha512-Z0gYUJmzZ6ZdRUqpg1r8GsaFKypE+3xAzuFeMuoHgjc9KZv3wMyCRjQIWEbhoFSq7+7yoHXySDJyyWQaPajeiQ==}
-    engines: {node: '>= 10.13.0'}
+  style-loader@4.0.0:
+    resolution: {integrity: sha512-1V4WqhhZZgjVAVJyt7TdDPZoPBPNHbekX4fWnCJL1yQukhCeZhJySUL+gL9y6sNdN95uEOS83Y55SqHcP7MzLA==}
+    engines: {node: '>= 18.12.0'}
     peerDependencies:
-      webpack: ^4.0.0 || ^5.0.0
+      webpack: ^5.27.0
 
   supports-color@8.1.1:
     resolution: {integrity: sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==}
@@ -5116,10 +5116,8 @@ snapshots:
     dependencies:
       ansi-regex: 5.0.1
 
-  style-loader@2.0.0(webpack@5.97.1):
+  style-loader@4.0.0(webpack@5.97.1):
     dependencies:
-      loader-utils: 2.0.2
-      schema-utils: 3.1.1
       webpack: 5.97.1(webpack-cli@6.0.1)
 
   supports-color@8.1.1:
